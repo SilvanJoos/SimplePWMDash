@@ -195,6 +195,8 @@ try:
             pulse = pwm_pulse(pin=pwm)
             percentage = pwm_percentage(pulse, pwm_min, pwm_diff)
             counter += 1
+            # If-Statement below used for reducing jittering of dashboard
+            # This might be be due to a faulty signal generator, will be fixed with future release
             if counter >= 3:
                 oled.fill(0)
                 draw_speedometer(32, 25, 17, percentage)
