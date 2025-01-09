@@ -16,19 +16,20 @@ A simple PWM signal-based dashboard for RC boats, cars, and planes using the Ada
 - Optional: PWM Servo-Tester (for generating PWM-Signal)
 
 ## Software
-- Thonny (for easy interfacing with QT Py RP2040), not required (https://thonny.org/)
+- Thonny 4.1.6 or newer (for easy interfacing with QT Py RP2040), not required (https://thonny.org/)
+- CircuitPython 9.2.1 or newer (https://circuitpython.org/board/adafruit_qtpy_rp2040/)
 
 ## Requirements
 
 1. CircuitPython <br />
-  This Project requires CircuitPython installed on your Adafruit QT Py RP2040.
+  This Project requires CircuitPython 9.2.1 or newer installed on your Adafruit QT Py RP2040.
   A guide on this can be found here:
   https://learn.adafruit.com/adafruit-qt-py-2040/circuitpython
 
-2. Dependencies
-  To run this on your QT Py you need the following modules.
-  - Adafruit-SSD1306 (https://github.com/adafruit/Adafruit_CircuitPython_SSD1306)
-  - Adafruit-framebuf (https://github.com/adafruit/Adafruit_CircuitPython_framebuf)
+2. Dependencies <br />
+  To run this on your QT Py you need the following modules. <br />
+  - Adafruit-SSD1306 2.12.18 or newer (https://github.com/adafruit/Adafruit_CircuitPython_SSD1306)
+  - Adafruit-framebuf 1.6.6 or newer (https://github.com/adafruit/Adafruit_CircuitPython_framebuf)
 
 ## Installation
 
